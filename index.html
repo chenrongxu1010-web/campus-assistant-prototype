@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="川农校园助手产品经理求职版可交互高保真原型"
+    />
+    <title>川农校园助手｜产品经理求职版原型</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="prototype-shell">
+      <aside class="case-panel">
+        <div class="brand-lockup">
+          <div class="brand-mark">川</div>
+          <div>
+            <p class="eyebrow">PM CASE STUDY · 2026</p>
+            <h1>川农校园助手</h1>
+          </div>
+        </div>
+        <p class="case-lead">
+          先整合分散的校园信息，再通过可信 AI 将信息转化为行动。
+        </p>
+        <div class="case-stats">
+          <div><strong>15</strong><span>高保真页面</span></div>
+          <div><strong>3</strong><span>核心任务闭环</span></div>
+          <div><strong>4</strong><span>底部导航入口</span></div>
+        </div>
+        <section class="case-section">
+          <p class="section-kicker">产品取舍</p>
+          <h2>少而精，证明决策能力</h2>
+          <ul>
+            <li>首页优先解决“今天要做什么”</li>
+            <li>教师评价改为结构化课程体验</li>
+            <li>AI 回答有来源，写入日程需确认</li>
+            <li>广告改为场景相关的服务推荐</li>
+          </ul>
+        </section>
+        <section class="case-section flow-guide">
+          <p class="section-kicker">建议演示路径</p>
+          <button data-start-flow="information">
+            <span>01</span>通知 → 添加截止日
+          </button>
+          <button data-start-flow="courseExperience">
+            <span>02</span>课程 → 查看体验档案
+          </button>
+          <button data-start-flow="aiPlanning">
+            <span>03</span>AI → 确认加入日程
+          </button>
+        </section>
+        <p class="case-note">
+          本原型用于展示产品方案与交互逻辑，页面中的指标为计划验证指标。
+        </p>
+      </aside>
+
+      <section class="device-stage">
+        <div class="device">
+          <div class="device-bar">
+            <span>09:41</span>
+            <div class="dynamic-island"></div>
+            <span>5G&nbsp; 92%</span>
+          </div>
+          <div id="app" class="app"></div>
+        </div>
+        <div class="screen-caption">
+          <span id="screen-index">01 / 15</span>
+          <strong id="screen-title">今日校园首页</strong>
+          <span>点击页面中的按钮体验流程</span>
+        </div>
+      </section>
+
+      <aside class="screen-map">
+        <div class="screen-map-head">
+          <p class="section-kicker">SCREEN MAP</p>
+          <h2>15 个关键页面</h2>
+        </div>
+        <nav id="screen-list" aria-label="原型页面列表"></nav>
+      </aside>
+    </main>
+    <script src="./app.mjs"></script>
+  </body>
+</html>
